@@ -1,0 +1,206 @@
+{
+  "id": "33698e58-780c-4e23-9104-ad49b06712b2",
+  "version": "2.0",
+  "name": "Sekai-Test",
+  "url": "https://www.sekaiglory.com",
+  "tests": [{
+    "id": "1c96f352-ec0c-4bc1-8c0e-4f1107a657f2",
+    "name": "Untitled",
+    "commands": [{
+      "id": "a1d9517c-8615-4865-bb33-6f658fb445ee",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9651739-4863-4846-9e28-e8eb901b387f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "899x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f7b21f0-2c81-4cc1-b978-c666d381f232",
+      "comment": "",
+      "command": "click",
+      "target": "css=g > path",
+      "targets": [
+        ["css=g > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c011eb6-3137-4548-82c8-48fc32e885b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > .w-full > .bg-\\[\\#222222\\] > .absolute:nth-child(1)",
+      "targets": [
+        ["css=.flex > .w-full > .bg-\\[\\#222222\\] > .absolute:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f414bab-13c4-4158-ae53-84bb7b46c7e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) > .flex > .relative > .flex > div",
+      "targets": [
+        ["css=.flex:nth-child(1) > .flex > .relative > .flex > div", "css:finder"],
+        ["xpath=//div[@id='radix-:rb:-content-active']/div/div/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edf8f3b7-b481-442b-bee2-ef7773b667ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border > .w-full",
+      "targets": [
+        ["css=.border > .w-full", "css:finder"],
+        ["xpath=//div[3]/div/div/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83093033-8679-4581-acc5-75f6a5462288",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-3",
+      "targets": [
+        ["css=.p-3", "css:finder"],
+        ["xpath=//div[6]/div/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e672536d-f651-41c0-9ed7-dcccf58cd946",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(4) > .rounded-full > .relative",
+      "targets": [
+        ["css=.relative:nth-child(4) > .rounded-full > .relative", "css:finder"],
+        ["xpath=//div[4]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37651116-3109-43e7-928f-e706941d712f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(2) > .rounded-full > .relative",
+      "targets": [
+        ["css=.relative:nth-child(2) > .rounded-full > .relative", "css:finder"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e38b7225-b669-4ed6-a166-1a5bfdc1f2a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(3) > .rounded-full > .relative",
+      "targets": [
+        ["css=.relative:nth-child(3) > .rounded-full > .relative", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "437effcc-f3ea-42b1-93da-cd360781ce20",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.relative:nth-child(3) > .rounded-full > .relative",
+      "targets": [
+        ["css=.relative:nth-child(3) > .rounded-full > .relative", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0a3e02-33ea-4b4b-bd50-b98c6c8a7ac2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.saturate-100 > .relative",
+      "targets": [
+        ["css=.saturate-100 > .relative", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9917cef2-9a10-4e8e-a6d5-d5aa4c4f92fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.w-\\[80px\\]",
+      "targets": [
+        ["css=.w-\\[80px\\]", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Chapter 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45075c24-d6dd-444d-adcf-98709dadb723",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-\\[80px\\]",
+      "targets": [
+        ["css=.w-\\[80px\\]", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Chapter 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be3274a4-5880-479a-94f1-d3f632ea7c15",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.w-\\[80px\\]",
+      "targets": [
+        ["css=.w-\\[80px\\]", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Chapter 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a739db20-f661-469c-a75d-3bc6e6c8bd91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-flex",
+      "targets": [
+        ["css=.inline-flex", "css:finder"],
+        ["xpath=//div[3]/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create a deck')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9987e0a8-65f7-48bb-b0dd-a7c692a6a7b1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.relative:nth-child(3) > .rounded-full > .relative",
+      "targets": [
+        ["css=.relative:nth-child(3) > .rounded-full > .relative", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d1f1745-7725-4ac9-b3a3-d2aeb0c336b2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.relative:nth-child(3) > .rounded-full > .relative",
+      "targets": [
+        ["css=.relative:nth-child(3) > .rounded-full > .relative", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda9b14c-7c19-4948-bfa6-2bd9b780c053",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "68040f48-3e14-4bec-9a4e-ec7a7171f961",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1c96f352-ec0c-4bc1-8c0e-4f1107a657f2"]
+  }],
+  "urls": ["https://www.sekaiglory.com/"],
+  "plugins": []
+}
